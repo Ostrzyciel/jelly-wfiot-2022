@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[b4paper, margin=0.2in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\usepackage[T1]{fontenc}
+\usepackage{multirow}
+\usepackage[hidelinks]{hyperref}
+\usepackage{textgreek}
+\usepackage{booktabs}
+
+\title{Efficient and Practical RDF Streaming with Protocol Buffers \\ \large{Extra Materials}}
+\author{Piotr Sowiński}
+\date{June 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Raw serialization / deserialization throughput}
+\input{raw_ser}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=20cm]{img/raw_ser.eps}
+    \caption{Raw serialization throughput}
+\end{figure}
+
+\input{raw_des}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=20cm]{img/raw_des.eps}
+    \caption{Raw deserialization throughput}
+\end{figure}
+
+\clearpage
+
+\section{Serialized size}
+
+\input{size}
+
+\clearpage
+
+\section{End-to-end streaming throughput}
+\input{full_unl}
+\input{full_100}
+\input{full_50}
+
+\clearpage
+
+\section{End-to-end streaming latency}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=24cm]{img/latency_all.eps}
+    \caption{Streaming latency (aggregated over all five datasets)}
+\end{figure}
+
+\end{document}
