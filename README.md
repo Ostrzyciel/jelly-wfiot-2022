@@ -50,7 +50,12 @@ The materials in this repository are licensed under the Apache 2.0 License. You 
 
 ## Authors
 
-**[Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)** (1, 2), [Wiesław Pawłowski](https://orcid.org/0000-0002-5105-8873) (2), [Katarzyna Wasielewska-Michniewska](https://orcid.org/0000-0002-3763-2373) (2), [Maria Ganzha](https://orcid.org/0000-0001-7714-4844) (1, 2), [Marcin Paprzycki](https://orcid.org/0000-0002-8069-2152) (2)
+**[Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)** (1, 2), [Katarzyna Wasielewska-Michniewska](https://orcid.org/0000-0002-3763-2373) (2), [Maria Ganzha](https://orcid.org/0000-0001-7714-4844) (1, 2), [Wiesław Pawłowski](https://orcid.org/0000-0002-5105-8873) (2, 3), [Paweł Szmeja](https://orcid.org/0000-0003-0869-3836) (2) [Marcin Paprzycki](https://orcid.org/0000-0002-8069-2152) (2)
 
 * (1) Warsaw University of Technology
 * (2) Systems Research Institute, Polish Academy of Sciences
+* (3) Dept. of Mathematics, Physics, and Informatics, University of Gdańsk
+
+## Acknowledgements
+
+
