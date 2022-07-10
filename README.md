@@ -1,4 +1,4 @@
-This repository contains supplementary materials to the article titled "**Efficient and Practical RDF Streaming with Protocol Buffers**". The publication is currently in review (preprint, **TODO**).
+This repository contains supplementary materials to the article titled "**Efficient RDF Streaming for the Edge-Cloud Continuum**". The publication is currently in review.
 
 ## Contents
 
@@ -58,4 +58,5 @@ The materials in this repository are licensed under the Apache 2.0 License. You 
 
 ## Acknowledgements
 
+This work is part of the ASSIST-IoT project that has received funding from the EU’s Horizon 2020 research and innovation programme under grant agreement No 957258.
 
