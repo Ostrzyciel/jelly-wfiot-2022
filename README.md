@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/508663926.svg)](https://zenodo.org/badge/latestdoi/508663926)
+
 This repository contains supplementary materials to the article titled "**Efficient RDF Streaming for the Edge-Cloud Continuum**". The publication is currently in review.
 
 ## Contents
@@ -46,7 +48,7 @@ We are currently working on making Jelly into a fully-fledged set of open-source
 
 ## License
 
-The materials in this repository are licensed under the Apache 2.0 License. You can cite the materials using this DOI: **TODO**
+The materials in this repository are licensed under the Apache 2.0 License. You can cite the materials using this DOI: [![DOI](https://zenodo.org/badge/508663926.svg)](https://zenodo.org/badge/latestdoi/508663926)
 
 ## Authors
 
