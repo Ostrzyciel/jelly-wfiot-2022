@@ -60,5 +60,5 @@ The materials in this repository are licensed under the Apache 2.0 License. You 
 
 ## Acknowledgements
 
-This work is part of the ASSIST-IoT project that has received funding from the EU’s Horizon 2020 research and innovation programme under grant agreement No 957258.
+This work is part of the [ASSIST-IoT project](https://assist-iot.eu/) that has received funding from the EU’s Horizon 2020 research and innovation programme under grant agreement No 957258.
 
