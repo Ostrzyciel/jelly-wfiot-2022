@@ -22,9 +22,15 @@ To run the benchmarks, it is recommended to use a full JAR assembly. You can cre
 
 See also: [sbt documentation](https://www.scala-sbt.org/), [sbt-assembly](https://github.com/sbt/sbt-assembly).
 
+### Datasets
+
+The datasets used in this study can be downloaded from [here](http://purl.org/net/ro-eri-ISWC14). After downloading, keep the datasets as separate `.nt.gz` files.
+
+The following datasets were used: `identica`, `mix`, `wikipedia`, `aemet-1`, `migr_reschange`, `tour_cap_nuts3`, `aemet-2`, `petrol`, `flickr_10m`, `nevada_10m`. The Flickr and Nevada datasets have to be trimmed to the first 10 million triples. To do this, simply decompress them, truncate to the first 10m lines and compress them again.
+
 ### Scripts
 
-In the `scripts` directory you will find bash scripts that were used to operate the experiments. The datasets can be downloaded from [here](http://purl.org/net/ro-eri-ISWC14), keep them as separate `.nt.gz` files. The Flickr and Nevada datasets have to be trimmed to the first 10 million triples.
+In the `scripts` directory you will find bash scripts that were used to operate the experiments.
 
 * `set_netem.sh` sets up network emulation needed for end-to-end tests. `network_notes.md` explains how to set this up.
 * `kafka.properties` is the Kafka config that we've used. The important part is listeners – there needs to be three of them, for different speeds (as emulated by netem).
