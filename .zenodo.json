@@ -17,7 +17,6 @@
     }
   ],
   "upload_type": "software",
-  "version": "v1.0.0",
   "communities": [
     {
       "identifier": "assist-iot"
