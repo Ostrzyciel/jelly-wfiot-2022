@@ -56,17 +56,5 @@
       "name": "Marcin Paprzycki"
     }
   ],
-  "access_right": "open",
-  "related_identifiers": [
-    {
-      "scheme": "url",
-      "identifier": "https://github.com/Ostrzyciel/jelly-wfiot-2022/tree/main",
-      "relation": "isSupplementTo"
-    },
-    {
-      "scheme": "doi",
-      "identifier": "10.5281/zenodo.6815016",
-      "relation": "isVersionOf"
-    }
-  ]
+  "access_right": "open"
 }
