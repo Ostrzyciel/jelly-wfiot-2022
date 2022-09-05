@@ -1,10 +1,10 @@
 package pl.ostrzyciel.superfast_jellyfish.convert
 
 import com.typesafe.config.Config
-import pl.ostrzyciel.superfast_jellyfish.proto.RDF_StreamOptionsRow
+import pl.ostrzyciel.superfast_jellyfish.proto.RDF_StreamOptions
 
 object RDFStreamOptions:
-  def apply(opt: RDF_StreamOptionsRow): RDFStreamOptions =
+  def apply(opt: RDF_StreamOptions): RDFStreamOptions =
     RDFStreamOptions(
       nameTableSize = opt.maxNameTableSize,
       prefixTableSize = opt.maxPrefixTableSize,
@@ -32,8 +32,8 @@ case class RDFStreamOptions(nameTableSize: Int = 4000, prefixTableSize: Int = 15
   /**
    * @return a stream options row to be included as a header in the stream
    */
-  def toRDF: RDF_StreamOptionsRow =
-    RDF_StreamOptionsRow(
+  def toRDF: RDF_StreamOptions =
+    RDF_StreamOptions(
       maxNameTableSize = nameTableSize,
       maxPrefixTableSize = prefixTableSize,
       maxDatatypeTableSize = datatypeTableSize,

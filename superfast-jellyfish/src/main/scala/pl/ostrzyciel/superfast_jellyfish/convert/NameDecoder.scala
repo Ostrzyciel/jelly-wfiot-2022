@@ -7,10 +7,10 @@ class NameDecoder(opt: RDFStreamOptions):
   private val prefixLookup = new DecoderLookup[String](opt.prefixTableSize)
   private val nameLookup = new DecoderLookup[String](opt.nameTableSize)
 
-  inline def updateNames(nameRow: RDF_NameRow): Unit =
+  inline def updateNames(nameRow: RDF_NameEntry): Unit =
     nameLookup.update(nameRow.id, nameRow.value)
 
-  inline def updatePrefixes(prefixRow: RDF_PrefixRow): Unit =
+  inline def updatePrefixes(prefixRow: RDF_PrefixEntry): Unit =
     prefixLookup.update(prefixRow.id, prefixRow.value)
 
   def decode(iri: RDF_IRI): String =

@@ -36,7 +36,7 @@ class NameEncoder(opt: RDFStreamOptions, rowsBuffer: ListBuffer[RDF_StreamRow]):
         case EncoderValue(id, true) =>
           rowsBuffer.append(
             RDF_StreamRow(RDF_StreamRow.Row.Name(
-              RDF_NameRow(id = id, value = iri)
+              RDF_NameEntry(id = id, value = iri)
             ))
           )
           RDF_IRI(nameId = id)
@@ -54,12 +54,12 @@ class NameEncoder(opt: RDFStreamOptions, rowsBuffer: ListBuffer[RDF_StreamRow]):
 
         if pVal.newEntry then rowsBuffer.append(
           RDF_StreamRow(RDF_StreamRow.Row.Prefix(
-            RDF_PrefixRow(pVal.id, prefix)
+            RDF_PrefixEntry(pVal.id, prefix)
           ))
         )
         if iVal.newEntry then rowsBuffer.append(
           RDF_StreamRow(RDF_StreamRow.Row.Name(
-            RDF_NameRow(iVal.id, postfix)
+            RDF_NameEntry(iVal.id, postfix)
           ))
         )
         RDF_IRI(prefixId = pVal.id, nameId = iVal.id)
@@ -73,7 +73,7 @@ class NameEncoder(opt: RDFStreamOptions, rowsBuffer: ListBuffer[RDF_StreamRow]):
       )
       rowsBuffer.append(
         RDF_StreamRow(RDF_StreamRow.Row.Datatype(
-          RDF_DatatypeRow(id = dtVal.id, value = dt)
+          RDF_DatatypeEntry(id = dtVal.id, value = dt)
         ))
       )
     dtTable.get(dtVal.id)
