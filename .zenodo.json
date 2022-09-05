@@ -1,0 +1,72 @@
+{
+  "license": "Apache-2.0",
+  "description": "<p>Supplementary material for the article titled &quot;<strong>Efficient RDF Streaming for the Edge-Cloud Continuum</strong>&quot;.</p>",
+  "language": "eng",
+  "title": "Efficient RDF Streaming for the Edge-Cloud Continuum \u2013 materials",
+  "keywords": [
+    "RDF",
+    "stream processing",
+    "edge-cloud continuum",
+    "Protocol Buffers",
+    "Apache Kafka",
+    "gRPC"
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::957258"
+    }
+  ],
+  "upload_type": "software",
+  "version": "v1.0.0",
+  "communities": [
+    {
+      "identifier": "assist-iot"
+    }
+  ],
+  "publication_date": "2022-07-10",
+  "creators": [
+    {
+      "orcid": "0000-0002-2543-9461",
+      "affiliation": "Systems Research Institute, Polish Academy of Sciences",
+      "name": "Piotr Sowi\u0144ski"
+    },
+    {
+      "orcid": "0000-0002-3763-2373",
+      "affiliation": "Systems Research Institute, Polish Academy of Sciences",
+      "name": "Katarzyna Wasielewska-Michniewska"
+    },
+    {
+      "orcid": "0000-0001-7714-4844",
+      "affiliation": "Systems Research Institute, Polish Academy of Sciences",
+      "name": "Maria Ganzha"
+    },
+    {
+      "orcid": "0000-0002-5105-8873",
+      "affiliation": "Dept. of Mathematics, Physics, and Informatics, University of Gda\u0144sk",
+      "name": "Wies\u0142aw Paw\u0142owski"
+    },
+    {
+      "orcid": "0000-0003-0869-3836",
+      "affiliation": "Systems Research Institute, Polish Academy of Sciences",
+      "name": "Pawe\u0142 Szmeja"
+    },
+    {
+      "orcid": "0000-0002-8069-2152",
+      "affiliation": "Systems Research Institute, Polish Academy of Sciences",
+      "name": "Marcin Paprzycki"
+    }
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/Ostrzyciel/jelly-wfiot-2022/tree/main",
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.6815016",
+      "relation": "isVersionOf"
+    }
+  ]
+}
