@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/508663926.svg)](https://zenodo.org/badge/latestdoi/508663926)
 
-This repository contains supplementary materials to the article titled "**Efficient RDF Streaming for the Edge-Cloud Continuum**". The publication is currently in review (**[preprint](https://arxiv.org/abs/2207.04439)**).
+This repository contains supplementary materials to the article titled "**Efficient RDF Streaming for the Edge-Cloud Continuum**". The publication has been accepted into the IEEE 8th World Forum on Internet of Things (**[preprint](https://arxiv.org/abs/2207.04439)**).
 
 ## Contents
 
