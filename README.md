@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/508663926.svg)](https://zenodo.org/badge/latestdoi/508663926)
 
+❗❗❗ **THIS REPOSITORY IS NO LONGER UPDATED – THE JELLY PROTOCOL AND ITS IMPLEMENTATIONS ARE NOW DEVELOPED HERE: [GITHUB](https://github.com/jelly-rdf), [WEBSITE](https://jelly-rdf.github.io/).** ❗❗❗
+
 This repository contains supplementary materials to the article titled "**Efficient RDF Streaming for the Edge-Cloud Continuum**". The publication has been accepted into the IEEE 8th World Forum on Internet of Things (**[preprint](https://arxiv.org/abs/2207.04439)**).
 
 ## Contents
@@ -50,7 +52,7 @@ The `eda` directory contains the Jupyter notebooks that were used for data analy
 
 We hope that the provided materials are enough for interested researchers to reproduce the experiments. However, in case of any issues, don't hesitate to contact us (contact details are in the paper).
 
-We are currently working on making Jelly into a fully-fledged set of open-source libraries. This implementation is thus subject to change.
+The code in this repository is an early experimental version of Jelly. **The current version of Jelly can be found here: [GITHUB](https://github.com/jelly-rdf), [WEBSITE](https://jelly-rdf.github.io/).**
 
 ## License
 
